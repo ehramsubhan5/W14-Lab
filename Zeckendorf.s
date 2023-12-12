@@ -21,7 +21,7 @@
 .equ	FIB_SIZE, 31
 .equ	FIB_MAX, 514229
 
-		@		2 functions: Calc Zeck & Calc Fib
+		@		2 functions: Calc Zeck & Calc Fibonacci
 zeck:
 		CMP		R0, #0
 		BEQ		k_zero @if k == 0
